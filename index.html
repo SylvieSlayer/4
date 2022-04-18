@@ -11,7 +11,7 @@
 
 
     </script>
-   
+    
 </head>
 
 <body>
@@ -34,9 +34,16 @@
         <img class="img" src="https://placekitten.com/g/200/300" alt="BEBE">
         <img class="img" src="https://placekitten.com/200/286" alt="floof">
 
+    
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Arcu risus quis varius quam quisque id. Neque gravida in fermentum et sollicitudin.</p>
 
+            <button onclick="myFunction()">Press Me</button>
+            <script>
+                function myFunction() {
+                    confirm("You did it!");
+                }
+            </script>
         <ol>
 
             <li>Item 1</li>
@@ -45,9 +52,28 @@
             <li>Item 4</li>
             <li>Item 5</li>
         </ol>
+
+        
     </main>
 
     <footer>
+        <script>
+        let text;
+        let favCat = prompt ("what's your favorite cat");
+        switch (favCat) {
+            case "Torti":
+            text = "Tortis are great!";
+            break;
+            case "Tuxedo":
+            text = "Tuxedos are amazing!";
+            break;
+            case "Orange":
+            text = "YESSSS";
+            break;
+            default:
+            text = "I love it";
+        }
+    </script>
         <p>Morbi blandit <br>
         666-666-6666</p>
     </footer>
