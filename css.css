@@ -19,4 +19,26 @@ img {
     margin: 20px;
     }
 
-    
+    html {
+        font-family: sans-serif;
+    }
+
+    form {
+        width: 600;
+        margin: 0 auto;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    fieldset {
+        background: rgb(151, 96, 96);
+        border: 5px solid black
+    }
+
+    legend {
+        padding: 10px;
+        background: rgb(151, 96, 96);
+        color: black;
+    }
