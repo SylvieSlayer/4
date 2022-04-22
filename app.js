@@ -16,22 +16,19 @@ function favcat() {
             alert(text);
             break;
         default:
-            text = "I love it";
+            text = "I don't know that one";
+            alert(text);
+            favcat();
     }
 
 }
 favcat();
 
+function catPics() {
+   let catPics = prompt ("how many cats do you have");
+   for (let i = 0; i < catPics; i++) {
+       document.write ('<img class="img" src="https://placekitten.com/200/300" alt="stupid cute">')
+   }
+}
 
-const otherCheckbox = document.querySelector('#other');
-cont otherText = document.querySelector('#otherValue');
-otherText.style.visibility = 'hidden';
-
-otherCheckbox.addEventListener('change', ) => {
-    if(otherCheckbox.checked) {
-        otherText.style.visibility = 'visible';
-        otherText.value = '';
-    } else {
-        otherText.style.visibility = 'hidden';
-    }
-});
+catPics();
